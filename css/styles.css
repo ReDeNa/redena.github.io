@@ -11,9 +11,13 @@ body {
 
 header {
     background-color: #efefef;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 5;
+    padding-bottom: 5px;
 
+}
+
+.menu {
+    background-color: palegoldenrod;
 }
 
 .container {
@@ -23,11 +27,6 @@ header {
     margin-right: auto;
     display: flex;
     align-items: center;
-}
-
-.icon {
-
-/* background-color: skyblue; */
 }
 
 .icon img {
@@ -72,11 +71,22 @@ header {
 }    
 
 .works > h1 {
-    font-wiight: normal;
+    font-weight: normal;
     font-size: 24px;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.works > h2 {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.works > h3 {
+    font-size: 18px;
+    text-align: center;
 }
 
 .works > section {
@@ -96,4 +106,16 @@ footer p {
     font-size: 14px;
     margin-bottom: 60px;
     color: gray;
+}
+
+.wo {
+    border: solid 5px black;
+    border-radius: 10%;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.oppai {
+    font-size: 45px;
+    padding: 50%;
 }
